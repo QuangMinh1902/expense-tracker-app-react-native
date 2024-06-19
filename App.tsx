@@ -3,9 +3,9 @@ import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import RecentExpenses from "./components/RecentExpenses";
-import AllExprenses from "./components/AllExprenses";
-import ManageExpenses from "./components/ManageExpenses";
+import RecentExpenses from "./screens/RecentExpenses";
+import AllExprenses from "./screens/AllExprenses";
+import ManageExpenses from "./screens/ManageExpenses";
 import { GlobalStyles } from "./constants/style";
 import { Ionicons } from "@expo/vector-icons";
 
